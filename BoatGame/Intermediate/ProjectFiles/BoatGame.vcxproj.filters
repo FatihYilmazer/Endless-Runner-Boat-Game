@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\BoatGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{86748B9B-5D10-4881-96E9-48ADCC42BE45}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BoatGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BoatGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\BoatGame.png" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{3E0B1315-936C-4B77-B1BB-453461BB9B39}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{3CE2DA1A-3412-435D-BAD3-40E17E221E93}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Source\BoatGame">
+      <UniqueIdentifier>{FF423F75-9EBA-4294-A694-4344DD5778D7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BoatGame\BoatGame.Build.cs">
+      <Filter>Source\BoatGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\BoatGame\BoatGame.cpp">
+      <Filter>Source\BoatGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BoatGame\BoatGame.h">
+      <Filter>Source\BoatGame</Filter>
+    </ClInclude>
+    <Filter Include="Source\BoatGame\Private">
+      <UniqueIdentifier>{AD139BE8-D448-4D70-A7C7-53FD05E7A8A1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BoatGame\Private\BoatBase.cpp">
+      <Filter>Source\BoatGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BoatGame\Private\ProceduralPlatformGeneratorBase.cpp">
+      <Filter>Source\BoatGame\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\BoatGame\Public">
+      <UniqueIdentifier>{2C6140F4-8392-40F9-BFEE-11ADC15119A1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\BoatGame\Public\BoatBase.h">
+      <Filter>Source\BoatGame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BoatGame\Public\ProceduralPlatformGeneratorBase.h">
+      <Filter>Source\BoatGame\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

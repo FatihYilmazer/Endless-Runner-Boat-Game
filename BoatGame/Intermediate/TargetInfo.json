@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "BoatGame",
+			"Path": "D:\\UE4\\Assets\\BoatGame\\Source\\BoatGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "BoatGameEditor",
+			"Path": "D:\\UE4\\Assets\\BoatGame\\Source\\BoatGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

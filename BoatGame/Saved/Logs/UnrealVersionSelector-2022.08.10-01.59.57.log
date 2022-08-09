@@ -1,0 +1,13 @@
+UnrealBuildTool.Main: ERROR: A conflicting instance of UnrealBuildTool is already running.
+UnrealBuildTool.Main: BuildException: A conflicting instance of UnrealBuildTool is already running.
+UnrealBuildTool.Main:    konum: UnrealBuildTool.SingleInstanceMutex..ctor(String MutexName, Boolean bWaitMutex) D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\SingleInstanceMutex.cs içinde: satır 50
+UnrealBuildTool.Main:    konum: UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs içinde: satır 522
+Timeline.Print: Timeline:
+Timeline.Print: 
+Timeline.Print: [ 0.000]
+Timeline.Print: [ 0.000](+0.039) <unknown>
+Timeline.Print: [ 0.039](+0.142) XmlConfig.ReadConfigFiles()
+Timeline.Print: [ 0.182](+0.000) SingleInstanceMutex.Acquire()
+Timeline.Print: [ 0.182](+0.128) <unknown>
+Timeline.Print: [ 0.311](+0.000) FileMetadataPrefetch.Stop()
+Timeline.Print: [ 0.314]
